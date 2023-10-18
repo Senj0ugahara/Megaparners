@@ -1,0 +1,35 @@
+.nav {
+  &-list {
+    display: flex;
+    align-items: center;
+  }
+
+  &-item {
+    &:not(:last-child) {
+      margin-right: 32px;
+    }
+
+    &_type_mobile {
+      @media (max-width: 1670px) {
+        width: 300px;
+        padding: 13px 20px;
+        border: 2px solid var(--main-blue);
+        border-radius: 28px;
+      }
+    }
+
+    &__link {
+      font-family: Lexend;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      color: inherit;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        color: var(--main-blue);
+        text-decoration: underline;
+      }
+    }
+  }
+}

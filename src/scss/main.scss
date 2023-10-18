@@ -1,0 +1,15 @@
+// Базовые подключения
+@import "fonts";
+@import "settings";
+@import "vars";
+
+// Подключения UI компонентов
+@import "./components/UI/nav";
+@import "./components/UI/blog";
+@import "./components/UI/button";
+@import "./components/UI/simplebar";
+
+// Подключения компонентов страницы (большие)
+@import "./components/header";
+@import "./components/banner";
+@import "./components/footer";

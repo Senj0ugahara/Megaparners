@@ -1,0 +1,17 @@
+.btn {
+  display: block;
+  height: 48px;
+  padding: 14px;
+  border: 2px solid #9DADF2;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fff;
+  text-transform: uppercase;
+
+  &_type_active {
+    border: none;
+    background: var(--main-blue);
+  }
+}
